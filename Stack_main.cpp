@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+//ÐšÐ»Ð°ÑÑ Ð´Ð»Ñ Ð´Ð°Ð½Ð½Ñ‹Ñ… Sublist
 class Node {
     public:
         int data;
@@ -131,7 +131,7 @@ class Sublist: public Stack{
         p=head;
         if (where>length)
         {
-            cout<<"íîìåð çà ïðåäåëàìè ñïèñêà, îáðàòèòåñü ê ôóíêöèè push_back";
+            cout<<"Ã­Ã®Ã¬Ã¥Ã° Ã§Ã  Ã¯Ã°Ã¥Ã¤Ã¥Ã«Ã Ã¬Ã¨ Ã±Ã¯Ã¨Ã±ÃªÃ , Ã®Ã¡Ã°Ã Ã²Ã¨Ã²Ã¥Ã±Ã¼ Ãª Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¨ push_back";
         }
         for (int i=2;i<where;i++)
         {
@@ -150,7 +150,7 @@ class Sublist: public Stack{
         p=head;
         if (where>length)
         {
-            cout<<"íîìåð çà ïðåäåëàìè ñïèñêà, îáðàòèòåñü ê ôóíêöèè pop_back";
+            cout<<"Ã­Ã®Ã¬Ã¥Ã° Ã§Ã  Ã¯Ã°Ã¥Ã¤Ã¥Ã«Ã Ã¬Ã¨ Ã±Ã¯Ã¨Ã±ÃªÃ , Ã®Ã¡Ã°Ã Ã²Ã¨Ã²Ã¥Ã±Ã¼ Ãª Ã´Ã³Ã­ÃªÃ¶Ã¨Ã¨ pop_back";
         }
         for (int i=2;i<where;i++)
         {
